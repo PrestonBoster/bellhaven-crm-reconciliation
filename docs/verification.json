@@ -1,0 +1,33 @@
+{
+  "verified_at": "2026-10-14T18:42:17+00:00",
+  "initial_accounts": 121,
+  "final_accounts": 127,
+  "website_communities": 35,
+  "matched_current_accounts": 35,
+  "approved_proposals": 28,
+  "rejected_proposals": 1,
+  "pending_proposals": 0,
+  "new_proposals_on_repeat_scan": 0,
+  "unchanged_original_accounts": 97,
+  "all_original_financial_balances_preserved": true,
+  "duplicate_records_inactivated": 7,
+  "absent_facilities_flagged": 3,
+  "missing_accounts_created": 4,
+  "chow_successors_created": 2,
+  "chow": [
+    {
+      "name": "Bellhaven of Marietta",
+      "old_account_id": "001A34WFSUYHCRBLFT",
+      "new_account_id": "001E1B67B248CE6822",
+      "preserved_fields": true
+    },
+    {
+      "name": "Bellhaven of Tiffin",
+      "old_account_id": "001U6RW32TY0WSXZZB",
+      "new_account_id": "001D1F6BF6FC1161B6",
+      "preserved_fields": true
+    }
+  ],
+  "po_box_preserved": true,
+  "tests_passed": 23
+}

@@ -4,6 +4,8 @@ A local, evidence-led review app for keeping facility ownership accurate without
 
 Built for the fictional Bellhaven assessment, with AI assistance and explicit review of the resulting evidence. No LLM service or paid API key is required at runtime.
 
+![Completed review dashboard: 35 communities, 127 CRM accounts, 28 approved decisions and one rejection](docs/demo-overview.png)
+
 ## Start locally
 
 Requires Python 3.10+ on macOS or Linux (Windows: WSL). Run from the repository directory:
@@ -35,7 +37,7 @@ Configuration is documented in [`.env.example`](.env.example). Values must be ex
 - [Daily cron configuration](config/daily.cron) — illustrative, not installed
 - [Demo recording and downloadable materials](https://github.com/PrestonBoster/bellhaven-crm-reconciliation/releases/tag/v1.0.0)
 
-The planned video is a browser recording of review actions against the assessment sandbox, with a matching script for the candidate's own narration. See the results document for the current execution status.
+The video is an actual three-minute browser recording of review actions against the assessment sandbox. It is silent so the candidate can add their own narration using the matching script. The completed review approved 28 proposals, rejected one, and left zero pending; a fresh scan added zero proposals. See the verification report for details.
 
 ## What the system handles
 

@@ -1,6 +1,6 @@
 # Three-minute demo script
 
-Use this as a voiceover for the silent screen recording, or as a guide for a live walkthrough. Speak at a relaxed 120–130 words per minute. The recording shows actual sandbox actions; a later walkthrough should use the saved decision history rather than undoing the changes.
+Use this as a voiceover for the silent screen recording, or as a guide for a live walkthrough. Aim for roughly 125–140 words per minute and pause where the video waits for an action. The recording shows actual sandbox actions; a later walkthrough should use the saved decision history rather than undoing the changes.
 
 ## 0:00–0:20 — Start at the review dashboard
 
@@ -24,7 +24,7 @@ Use this as a voiceover for the silent screen recording, or as a guide for a liv
 
 **Screen:** The real CRM browser, showing the new Marietta account under Bellhaven.
 
-“The app reads the result back before marking the operation complete. This is the actual CRM browser, showing the new current account under Bellhaven. This isn’t a preview of a proposed change—the account has been created through the API. The local audit history records the approval, source evidence and resulting account ID.”
+“The app reads the result back before marking the operation complete. This is the actual CRM browser, showing the new current account under Bellhaven. The account has been created through the API. The local audit history records the approval, source evidence and resulting account ID.”
 
 ## 1:35–2:00 — Show the old Marietta account
 
