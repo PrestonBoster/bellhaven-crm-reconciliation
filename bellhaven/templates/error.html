@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block body %}<div class="eyebrow">Review needed</div><h1>The operation was paused.</h1><div class="banner warning">{{message}}</div><a class="button secondary" href="{{'/proposal/'+proposal_id if proposal_id else '/'}}">Return to review</a>{% endblock %}

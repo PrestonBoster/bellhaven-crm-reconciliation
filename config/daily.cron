@@ -1,0 +1,9 @@
+# EXAMPLE ONLY: this file is not installed or active.
+# On a Linux cron implementation that supports CRON_TZ, scan at 07:00 New York time.
+# On macOS, cron uses the machine timezone; set the host timezone accordingly.
+SHELL=/bin/bash
+CRON_TZ=America/New_York
+# Keep the token in an owner-readable environment file (chmod 600).
+# That file must export CRM_API_TOKEN and an absolute BELLHAVEN_DATA_DIR.
+# The app and cron MUST use the same persistent data directory.
+0 7 * * * cd /absolute/path/bellhaven-crm-reconciliation && . /secure/path/bellhaven.env && .venv/bin/python -m bellhaven scan >> /secure/path/bellhaven-scan.log 2>&1

@@ -1,0 +1,10 @@
+.env
+.venv/
+data/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+.firecrawl/
+*.mp4
+*.webm
